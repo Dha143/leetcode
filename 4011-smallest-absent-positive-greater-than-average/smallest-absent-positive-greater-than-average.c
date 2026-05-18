@@ -12,7 +12,7 @@ if(max<0)
 max=0;
 for(i=1;i<=max+1;i++)
 {
-if((float)i>avg)
+if(i>avg)
 f=0;
 if(f==0)
 for(j=0;j<numsSize;j++)
